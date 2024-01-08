@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #faf3fe; */
+}
+
+.navbar {
+  /* background: #4066fa; */
+  padding: 20px 60px;
+  margin-bottom: 16px;
+  position: fixed;
+  width: calc(100% - 120px);
+  top: 0;
+  z-index: 1000; /* Set a higher z-index value */
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  font-size: large;
+
+  font-family: "Kalnia", serif;
+  font-weight: 400;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: rgb(89, 46, 230);
+  /* color: rgb(194, 52, 250); */
+}
+
+.article_wrapper {
+  position: relative;
+  background-color: grey;
+  /* background-color: #f1d9ff; */
+  /* background-color: #c2c2c2; */
+  height: 4000px; /* Length of the interactive scroll article */
+  font-family: "Kalnia";
+  font-weight: 400;
+}
+
+.canvas_wrapper {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+input {
+  font-size: 1rem;
+  width: 200px;
+  height: 2rem;
+  box-sizing: border-box;
+
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+
+  outline: none;
+  background-color: none;
+
+  font-family: "Kalnia";
+  font-weight: 300;
+  padding: 0.5rem;
+}
+
+input:focus {
+  border-color: rgb(177, 135, 255);
+  outline: none;
+  box-shadow: 0 0 5px rgb(202, 173, 255);
+}
+
+.button1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  border: none;
+  border-radius: 20px;
+  font-family: "Kalnia";
+  font-size: large;
+  font-weight: 500;
+  background-color: rgb(159, 107, 255);
+  border: 1.5px solid rgb(159, 107, 255);
+  color: white;
+}
+
+.button1:hover {
+  background-color: rgb(241, 234, 255);
+  color: rgb(123, 52, 255);
+  border: 1.5px solid rgb(123, 52, 255);
+}
+
+.button2 {
+  background: none;
+  width: 55.05vw;
+  border-radius: 0;
+
+  color: black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: none;
+
+  background-color: #f5eeff;
+
+  font-family: "Kalnia";
+  font-size: 20px;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.button2:hover {
+  background-color: rgb(236, 226, 255);
+}
