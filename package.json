@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@react-three/drei": "^9.88.13",
     "@react-three/fiber": "^8.15.10",
     "@react-three/postprocessing": "^2.15.11",
